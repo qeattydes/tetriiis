@@ -1,0 +1,85 @@
+.container.navigation {
+    height: 3rem;
+    background-color: #C23055;
+    padding: 0 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    /* box-shadow: inset -4px -4px 4px rgba(255, 255, 255, 0.253);
+    mix-blend-mode: overlay; */
+    color: white;
+    width: 1130px;
+    margin-top: 2rem;
+}
+
+body {
+    background-color: #FFA5C6;
+}
+
+section.general {
+    margin: 3rem 0;
+}
+
+section.general .container .lines .top .line {
+    width: 8rem;
+    height: 0.5rem;
+    background-color: #C23055;
+    color: #C23055;
+    border-radius: 2rem;
+    position: relative
+}
+
+section.general .container .lines .top {
+    gap: 0.5rem;
+}
+
+section.start .button {
+    gap: 0.5rem;
+}
+
+section.start .button h3 {
+    color: #C23055;
+}
+
+section.start .circle {
+    height: 2rem;
+    width: 2rem;
+    background-color: #3B5182;
+    border-radius: 100px;
+    border-radius: 50px;
+    background: #FFA5C6;
+    box-shadow: -4px -4px 8px #d98ca8,
+        4px 4px 8px #ffbee4;
+}
+
+section.start .control {
+    width: 13rem;
+    height: 13rem;
+    background-color: #F17DA4;
+    border-radius: 100rem;
+}
+
+section.start .control .button {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100rem;
+
+
+
+
+}
+
+section.start .control .button.play {
+    background-color: #FF3015;
+}
+
+section.start .control .button.restart {
+    background-color: #00E859;
+}
+
+section.start .control .button.exit {
+    background-color: #347DC2;
+}
+
+section.start .control .button.theme {
+    background-color: #FFCC00;
+}

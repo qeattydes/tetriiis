@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "azert";
+    src: url('../fonts/AzeretMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: "j10";
+    src: url('../fonts/Jersey10-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: "j20";
+    src: url('../fonts/Jersey20-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
