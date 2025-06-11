@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tetris</title>
+    <title>Game</title>
     <link rel="stylesheet" href="./assets/styles/fonts.css">
     <link rel="stylesheet" href="./assets/styles/reset.css">
     <link rel="stylesheet" href="./assets/styles/utility.css">
@@ -75,11 +75,6 @@
             <div class="container df  jcsb">
                 <div class="left df column-dir jcsb">
                     <div class="buttons df column-dir">
-                        <!-- <a href="" class="button df aic" >
-                            <div class="circle drop-shadow-in"></div>
-                            <h3 class="text-drop-shadow-in"> info</h3>
-                        </a> -->
-                        <!-- Кнопка открытия -->
                         <a href="" id="openModal" class="button df aic">
                             <div class="circle drop-shadow-in"></div>
                             <h3 class="text-drop-shadow-in"> info</h3>
@@ -94,17 +89,24 @@
                                 </div>
                                 <hr>
                                 <div class="modal-body df fldc aic ">
-                                    <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                    <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500s, when an unknown printer took a galley of type and scrambled it to make a
+                                        type specimen book. It has survived not only five centuries, but also the leap
+                                        into electronic typesetting, remaining essentially unchanged. It was popularised
+                                        in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                                        passages, and more recently with desktop publishing software like Aldus
+                                        PageMaker including versions of Lorem Ipsum.</p>
                                 </div>
                             </div>
                         </div>
+                        <a href="./index.html" class="button df aic">
+                            <div class="circle drop-shadow-in"></div>
+                            <h3 class="text-drop-shadow-in">home</h3>
+                        </a>
                         <a href="./leaders.html" class="button df aic">
                             <div class="circle drop-shadow-in"></div>
                             <h3 class="text-drop-shadow-in">leaders</h3>
-                        </a>
-                        <a href="./game.html" class="button df aic">
-                            <div class="circle drop-shadow-in"></div>
-                            <h3 class="text-drop-shadow-in">play</h3>
                         </a>
                     </div>
                     <div class="control inner-shadow-in reletive df aic jcc">
@@ -127,25 +129,27 @@
                 </div>
                 <div class="screen reletive">
                     <div class="back-screen inner-shadow-in df aic jcc">
-                        <div class="main-screen  df aic jcc inner-shadow-in">
-                            <!-- <img src="./assets/images/Frame 67.svg" alt=""> -->
-                            <img src="./assets/images/pirple box.svg" alt="" class="box-1 absolute">
-                            <img src="./assets/images/pink box.svg" alt="" class="box-2 absolute">
-                            <img src="./assets/images/drkpink box.svg" alt="" class="box-3 absolute">
-                            <img src="./assets/images/pink box.svg" alt="" class="box-4 absolute">
-                            <img src="./assets/images/pirple box.svg" alt="" class="box-5 absolute">
-                            <!-- <div class="box"></div>
-                            <div class="box"></div>
-                            <div class="box"></div>
-                            <div class="box"></div>
-                            <div class="box"></div> -->
-                            <a href="./game.html">
-                                <h1 class="j10 text-inner-shadow-out">START</h1>
-                            </a>
+                        <div class="main-screen  df aic jcc inner-shadow-in reletive">
+                            <img src="./assets/images/blocks.svg" alt="" class="blocks absolute">
+                            <img src="./assets/images/pink top.svg" alt="" class="top-block absolute">
                         </div>
                     </div>
                 </div>
-                <div class="right df column-dir aie jce">
+                <div class="right df column-dir aic jcsb">
+                    <div class="data df column-dir">
+                        <div class="next df column-dir aic jcc">
+                            <h2 class="j20 text-drop-shadow-in">next</h2>
+                            <div class="container-next  df aic jcc drop-shadow-in">
+                                <img src="./assets/images/4drkpink.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="score df column-dir aic jcc">
+                            <h2 class="j20 text-drop-shadow-in">score</h2>
+                            <div class="container-next  df aic jcc drop-shadow-in">
+                                <h3 class="j10">1,024</h3>
+                            </div>
+                        </div>
+                    </div>
                     <div class="control inner-shadow-in reletive df aic jcc">
                         <img src="./assets/images/arrows.svg" alt="">
                     </div>
