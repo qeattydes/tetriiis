@@ -367,4 +367,41 @@ section.start .screen .main-screen .item .position {
         flex-direction: column;
         /* align-items: center; */
     }
+
+    section.start .right .data {
+        display: none;
+    }
+
+    section.start .left .next {
+        gap: 1.5rem;
+    }
+
+    section.start .left .next .container-next {
+        width: 10rem;
+        padding: 1rem 0;
+        background-color: #222;
+        border: 2px solid #C23055;
+    }
+    section.start .left .next .container-next img{
+        height: 7.5rem;
+    }
+
+    section.start .left .score {
+        gap: 1.5rem;
+    }
+
+    section.start .left .score .container-next {
+        width: 13rem;
+        padding: 1rem 0;
+        background-color: #222;
+        border: 2px solid #C23055;
+        color: #C23055;
+    }
+    section.start .left .data{
+        display: flex;
+        flex-direction: row;
+        margin: 2rem 0;
+        align-items: center;
+        justify-content: center;
+    }
 }
