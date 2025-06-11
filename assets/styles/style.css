@@ -338,4 +338,33 @@ section.start .screen .main-screen .item .position {
     .container.navigation {
         padding: 0 20px;
     }
+
+
+    section.start .right {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    section.start .right .control {
+        display: flex;
+        margin-top: 2rem;
+    }
+
+    section.start .left .control {
+        display: none;
+    }
+
+    section.start .screen {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section.start .container {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
 }
