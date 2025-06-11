@@ -39,7 +39,7 @@ td {
     font-size: 100%;
     font: inherit;
     color: inherit;
-    font-family: 'azert';
+    font-family: 'Montserrat';
 }
 
 ol,
@@ -89,7 +89,7 @@ select {
     --font-size-base: 1rem;
     /* 1rem 16px */
     --font-size-md: 1.125rem;
-    /* 1.125rem 20px */
+    /* 1.125rem px */
     --font-size-lg: 1.5rem;
     /* 1.25rem 24px */
     --font-size-xl: 2rem;
